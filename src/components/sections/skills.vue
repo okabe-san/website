@@ -2,7 +2,17 @@
   <div>
     <h2></h2>
     <div class="container">
-      <div class="image">
+      <div class="info">
+      </div>
+      <div class="info">
+      </div>
+      <div class="info">
+      </div>
+      <div class="info">
+      </div>
+      <div class="info">
+      </div>
+      <div class="info">
       </div>
     </div>
   </div>
@@ -24,7 +34,7 @@ export default {
   flex-wrap: wrap;
   padding: 2rem 10%;
 }
-.image {
+.info {
   box-sizing: border-box;
   width: 50%;
   height: 300px;

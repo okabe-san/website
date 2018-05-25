@@ -8,10 +8,10 @@
     <content>
       <web1></web1>
       <web2></web2>
-      <links></links>
+      <about></about>
       <modeling></modeling>
+      <skills></skills>
     </content>
-    <about></about>
     <footer>
       <div class="bottom">
         © 2018 Okabe
@@ -23,18 +23,18 @@
 <script>
 import web1 from './sections/web1.vue'
 import web2 from './sections/web2.vue'
-import links from './sections/links.vue'
-import modeling from './sections/modeling.vue'
 import about from './sections/about.vue'
+import modeling from './sections/modeling.vue'
+import skills from './sections/skills.vue'
 
 export default {
   name: 'Home',
   components: {
     web1,
     web2,
-    links,
+    about,
     modeling,
-    about
+    skills
   },
   data () {
     return {
