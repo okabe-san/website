@@ -46,6 +46,17 @@
     </div>
     <div class="info_wapper">
       <div class="info">
+        <h2>LINKS</h2>
+        <p><a
+          href="http://3dvisualizationtips.blogspot.com/"
+          target="_blank">
+          Blog
+        </a></p>
+        <p><a
+          href="https://www.turbosquid.com/Search/Artists/3d-vis?referral=3d-vis"
+          target="_blank">
+          3d props
+        </a></p>
       </div>
     </div>
   </div>
@@ -66,7 +77,7 @@ export default {
   display: flex;
   flex-wrap: wrap;
   padding: 8rem 18%;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.08));
+  background: rgba(0, 0, 0, 0.05);
 }
 .info_wapper {
   box-sizing: border-box;
@@ -78,6 +89,6 @@ export default {
   height: 100%;
   padding: 4rem 0;
   border: 1px solid #fff;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.05);
 }
 </style>

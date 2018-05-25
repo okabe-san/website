@@ -4,3 +4,11 @@ h1, h2 {
 li {
   list-style-type: none;
 }
+a {
+  color: #7997A1;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+a:hover {
+  color: #2c3e50;
+}
