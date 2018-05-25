@@ -18,9 +18,10 @@
     <footer>
       <div class="title">
         <h2>THANK YOU FOR VISITING.</h2>
+        <p>（またのお越しを楽しみにしています。）</p>
       </div>
       <div class="note">
-        <span class="button" @click="close = !close">
+        <span class="button resume" @click="close = !close">
           VIEW RESUME
         </span>
         <resume
@@ -88,7 +89,8 @@ footer {
   flex-wrap: wrap;
   box-sizing: border-box;
   padding: 5rem;
-  background: gray;
+  color: #fff;
+  background: #2c3e50;
 }
 .title, .note {
   display: flex;
@@ -110,6 +112,10 @@ footer {
   margin-bottom: 1rem;
   background: #fff;
   font-size: 16px;
+}
+.resume {
+  background: #ff5233;
+  cursor: pointer;
 }
 .bottom {
   padding-top: 6rem;

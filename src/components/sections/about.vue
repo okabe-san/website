@@ -3,7 +3,6 @@
     <div class="title">
       <div>
         <h1>ABOUT</h1>
-        <h3>(Akiko Okabe)</h3>
       </div>
     </div>
     <div class="note">
@@ -32,6 +31,7 @@ export default {
 <style scoped>
 h1 {
   font-size: 72px;
+  color: #7997A1;
 }
 .container {
   display: flex;
@@ -39,7 +39,7 @@ h1 {
   box-sizing: border-box;
   height: 400px;
   padding: 2rem;
-  background: gray;
+  background: rgba(0, 0, 0, 0.05);
 }
 .title, .note {
   display: flex;
