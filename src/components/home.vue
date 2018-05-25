@@ -17,10 +17,17 @@
         <h2>THANK YOU FOR VISITING.</h2>
       </div>
       <div class="note">
-        <a class="button">
+        <span class="button" @click="close = !close">
           VIEW RESUME
-        </a>
-        <a class="button">
+        </span>
+        <resume
+          v-if="close"
+          @close="close = false">
+        </resume>
+        <a
+          class="button"
+          href="https://github.com/okabe-san"
+          target="_blank">
           GO TO GITHUB
         </a>
       </div>
@@ -39,6 +46,7 @@ import web1 from './sections/web1.vue'
 import web2 from './sections/web2.vue'
 import about from './sections/about.vue'
 import skills from './sections/skills.vue'
+import resume from './resume.vue'
 
 export default {
   name: 'Home',
@@ -46,7 +54,13 @@ export default {
     web1,
     web2,
     about,
-    skills
+    skills,
+    resume
+  },
+  data () {
+    return {
+      close: false
+    }
   }
 }
 </script>

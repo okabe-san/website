@@ -3,20 +3,6 @@
     <h2>Links</h2>
     <ul>
       <li>
-        <a
-          href="http://3dvisualizationtips.blogspot.com/"
-          target="_blank">
-          Blog
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://www.turbosquid.com/Search/Artists/3d-vis?referral=3d-vis"
-          target="_blank">
-          3d props
-        </a>
-      </li>
-      <li>
         <p>A single page application which uses AngularJS controllers and services. It is an everyday brain training game for everyone.
         * To design only for a mobile *
         </p>
