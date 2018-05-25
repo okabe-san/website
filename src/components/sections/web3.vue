@@ -6,29 +6,22 @@
     <div class="note">
       <div>
         <h3>
-          A single page application which uses AngularJS controllers and services.
+          A CRUD application designed for a small business featuring different user views.
         </h3>
         <h3>
-          It is an everyday brain training game for everyone.
-        </h3>
-        <h3>
-          * To design only for a mobile *
+          It was a team collaboration project where each member developed the frontend and backend.
         </h3>
         <p><a
-          href="https://github.com/okabe-san/ten-puzzle-front"
+          href="https://github.com/okabe-san/tai_chi_studio_two.git"
           target="_blank">
-          https://github.com/okabe-san/ten-puzzle-front
-        </a></p>
-        <p><a
-          href="https://ten-puzzle.firebaseapp.com/#/"
-          target="_blank">
-          https://ten-puzzle.firebaseapp.com/#/
+          https://github.com/okabe-san/tai_chi_studio_two.git
         </a></p>
       </div>
     </div>
     <div class="title">
       <div>
-        <h1>ten PUZZLE</h1>
+        <h1>tai-chi</h1>
+        <h1>STUDIO</h1>
       </div>
     </div>
   </div>

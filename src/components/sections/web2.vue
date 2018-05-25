@@ -1,6 +1,36 @@
 <template>
   <div class="container">
-    <img src="../../assets/images/graphics.png">
+
+    <div class="title">
+    </div>
+    <div class="note">
+      <div>
+        <h3>
+          An order form application for a small embroidery business. Using Vue.js.
+        </h3>
+        <h3>
+          For a better user experience.
+        </h3>
+        <h3>
+          * To design only for a desktop *
+        </h3>
+        <p><a
+          href="https://github.com/okabe-san/esquire_order"
+          target="_blank">
+          https://github.com/okabe-san/esquire_order
+        </a></p>
+        <p><a
+          href="http://order.customembellishment.com/#/"
+          target="_blank">
+          http://order.customembellishment.com/#/
+        </a></p>
+      </div>
+    </div>
+    <div class="title">
+      <div>
+        <h1>embroidery ORDER</h1>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -15,17 +45,31 @@ export default {
 </script>
 
 <style scoped>
+h1 {
+  font-size: 60px;
+}
 .container {
-  position: relative;
-  overflow: hidden;
-  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  height: 400px;
+  padding: 2rem 4rem;
+}
+.title, .note {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.title {
+  flex: 1;
+}
+.note {
+  flex: 2;
 }
 img {
-  position: absolute;
-  top: -9999px;
-  bottom: -9999px;
-  left: -9999px;
-  right: -9999px;
-  margin: auto;
-  }
+  max-width:100%;
+  max-height:100%;
+}
 </style>

@@ -7,10 +7,13 @@
       <h3>(Hello)</h3>
     </header>
     <content>
-      <web1></web1>
+      <image1></image1>
       <about></about>
-      <web2></web2>
+      <image2></image2>
       <skills></skills>
+      <web1></web1>
+      <web2></web2>
+      <web3></web3>
     </content>
     <footer>
       <div class="title">
@@ -42,19 +45,25 @@
 </template>
 
 <script>
-import web1 from './sections/web1.vue'
-import web2 from './sections/web2.vue'
+import image1 from './sections/image1.vue'
+import image2 from './sections/image2.vue'
 import about from './sections/about.vue'
 import skills from './sections/skills.vue'
+import web1 from './sections/web1.vue'
+import web2 from './sections/web2.vue'
+import web3 from './sections/web3.vue'
 import resume from './resume.vue'
 
 export default {
   name: 'Home',
   components: {
-    web1,
-    web2,
+    image1,
+    image2,
     about,
     skills,
+    web1,
+    web2,
+    web3,
     resume
   },
   data () {
