@@ -46,6 +46,17 @@
     </div>
     <div class="info_wapper">
       <div class="info">
+        <h2>LINKS</h2>
+        <p><a
+          href="http://3dvisualizationtips.blogspot.com/"
+          target="_blank">
+          Blog
+        </a></p>
+        <p><a
+          href="https://www.turbosquid.com/Search/Artists/3d-vis?referral=3d-vis"
+          target="_blank">
+          3d props
+        </a></p>
       </div>
     </div>
   </div>

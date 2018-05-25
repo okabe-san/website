@@ -38,7 +38,6 @@
 import web1 from './sections/web1.vue'
 import web2 from './sections/web2.vue'
 import about from './sections/about.vue'
-import links from './sections/links.vue'
 import skills from './sections/skills.vue'
 
 export default {
@@ -47,7 +46,6 @@ export default {
     web1,
     web2,
     about,
-    links,
     skills
   }
 }

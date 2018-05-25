@@ -3,7 +3,7 @@
     <div class="title">
       <div>
         <h1>ABOUT</h1>
-        <h1>ME</h1>
+        <h3>(Akiko Okabe)</h3>
       </div>
     </div>
     <div class="note">
@@ -31,7 +31,7 @@ export default {
 
 <style scoped>
 h1 {
-  font-size: 66px;
+  font-size: 72px;
 }
 .container {
   display: flex;
