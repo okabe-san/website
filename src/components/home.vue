@@ -8,12 +8,26 @@
     <content>
       <web1></web1>
       <web2></web2>
-      <links></links>
+      <about></about>
       <modeling></modeling>
+      <skills></skills>
     </content>
-    <about></about>
     <footer>
+      <div class="title">
+        <h2>THANK YOU FOR VISITING.</h2>
+      </div>
+      <div class="note">
+        <a class="button">
+          VIEW RESUME
+        </a>
+        <a class="button">
+          GO TO GITHUB
+        </a>
+      </div>
       <div class="bottom">
+        <p>
+          aki0u0@gmail.com | Denver, CO
+        </p>
         © 2018 Okabe
       </div>
     </footer>
@@ -23,18 +37,18 @@
 <script>
 import web1 from './sections/web1.vue'
 import web2 from './sections/web2.vue'
-import links from './sections/links.vue'
-import modeling from './sections/modeling.vue'
 import about from './sections/about.vue'
+import modeling from './sections/modeling.vue'
+import skills from './sections/skills.vue'
 
 export default {
   name: 'Home',
   components: {
     web1,
     web2,
-    links,
+    about,
     modeling,
-    about
+    skills
   },
   data () {
     return {
@@ -54,12 +68,35 @@ header {
   background: rgba(0, 0, 0, 0.05);
 }
 footer {
-  position: relative;
-  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 5rem;
+  background: gray;
+}
+.title, .note {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  flex: 1;
+  height: 100%;
+}
+.note {
+  width: 500px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  margin-bottom: 1rem;
+  background: #fff;
+  font-size: 16px;
 }
 .bottom {
-  position: absolute;
-  bottom: 2rem;
+  padding-top: 6rem;
   width: 100%;
 }
 </style>

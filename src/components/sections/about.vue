@@ -1,6 +1,21 @@
 <template>
-  <div>
-    <h2></h2>
+  <div class="container">
+    <div class="title">
+      <div>
+        <h1>ABOUT</h1>
+        <h1>ME</h1>
+      </div>
+    </div>
+    <div class="note">
+      <div>
+        <h3>
+          I am a web developer and a former 3d artis.
+        </h3>
+        <h3>
+          Outside of coding, I enjoy Colorado summer, ski, craft beer, and my new adventure scuba diving.
+        </h3>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -15,9 +30,28 @@ export default {
 </script>
 
 <style scoped>
-div {
-  height: 700px;
+h1 {
+  font-size: 60px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  height: 400px;
   padding: 2rem;
-  background: linear-gradient(180deg, #fff, rgba(0, 0, 0, 0.05));
+  background: gray;
+}
+.title, .note {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  width: 400px;
+  height: 100%;
+  border-right: 1px solid #fff;
+}
+.note {
+  flex: 1;
 }
 </style>
