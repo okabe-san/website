@@ -3,13 +3,13 @@
     <header>
       <nav>
       </nav>
-      <h1>{{ msg }}</h1>
+      <h1>こんにちは。</h1>
+      <h3>(Hello)</h3>
     </header>
     <content>
       <web1></web1>
-      <web2></web2>
       <about></about>
-      <modeling></modeling>
+      <web2></web2>
       <skills></skills>
     </content>
     <footer>
@@ -38,7 +38,7 @@
 import web1 from './sections/web1.vue'
 import web2 from './sections/web2.vue'
 import about from './sections/about.vue'
-import modeling from './sections/modeling.vue'
+import links from './sections/links.vue'
 import skills from './sections/skills.vue'
 
 export default {
@@ -47,13 +47,8 @@ export default {
     web1,
     web2,
     about,
-    modeling,
+    links,
     skills
-  },
-  data () {
-    return {
-      msg: 'こんにちは。'
-    }
   }
 }
 </script>

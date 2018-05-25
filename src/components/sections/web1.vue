@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h2></h2>
+  <div class="container">
+    <img src="../../assets/images/web_development.png">
   </div>
 </template>
 
@@ -15,9 +15,17 @@ export default {
 </script>
 
 <style scoped>
-div {
-  height: 700px;
-  padding: 2rem;
-  background: linear-gradient(180deg, #fff, rgba(0, 0, 0, 0.05));
+.container {
+  position: relative;
+  overflow: hidden;
+  height: 800px;
 }
+img {
+  position: absolute;
+  top: -9999px;
+  bottom: -9999px;
+  left: -9999px;
+  right: -9999px;
+  margin: auto;
+  }
 </style>

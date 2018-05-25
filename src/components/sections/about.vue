@@ -31,7 +31,7 @@ export default {
 
 <style scoped>
 h1 {
-  font-size: 60px;
+  font-size: 66px;
 }
 .container {
   display: flex;
