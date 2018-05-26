@@ -37,7 +37,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
-  height: 400px;
+  height: auto;
   padding: 2rem;
   background: rgba(0, 0, 0, 0.05);
 }

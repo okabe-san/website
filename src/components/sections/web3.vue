@@ -45,7 +45,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
-  height: 400px;
+  height: auto;
   padding: 2rem 4rem;
 }
 .title, .note {
@@ -64,5 +64,13 @@ h1 {
 img {
   max-width:100%;
   max-height:100%;
+}
+@media (max-width: 500px) {
+  .title {
+    order: 1;
+  }
+  .note {
+    order: 2;
+  }
 }
 </style>

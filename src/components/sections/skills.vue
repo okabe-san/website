@@ -91,4 +91,9 @@ export default {
   border: 1px solid #fff;
   background: rgba(0, 0, 0, 0.05);
 }
+@media (max-width: 500px) {
+  .info_wapper {
+    width: 100%;
+  }
+}
 </style>
