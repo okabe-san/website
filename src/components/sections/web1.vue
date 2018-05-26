@@ -72,7 +72,7 @@ img {
   max-width:100%;
   max-height:100%;
 }
-@media (max-width: 500px) {
+@media (max-width: 850px) {
   h1 {
     font-size: 40px;
   }
