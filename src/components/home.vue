@@ -97,11 +97,11 @@ footer {
   flex-direction: column;
 }
 .title {
-  flex: 1;
+  flex: 2;
   height: 100%;
 }
 .note {
-  width: 500px;
+  flex: 1;
 }
 .button {
   display: flex;
@@ -114,11 +114,20 @@ footer {
   font-size: 16px;
 }
 .resume {
+  font-weight: 600;
   background: #ff5233;
   cursor: pointer;
 }
 .bottom {
   padding-top: 6rem;
   width: 100%;
+}
+@media (max-width: 850px) {
+  footer {
+    flex-direction: column;
+  }
+  .note {
+    align-self: center;
+  }
 }
 </style>

@@ -45,7 +45,9 @@ export default {
   height: 30px;
   float: right;
   margin-right: 1rem;
-  background: #fff;
+  background: gray;
+  font-weight: 500;
+  color: #fff;
   border: 1px solid gray;
 }
 </style>

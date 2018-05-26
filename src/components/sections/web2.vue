@@ -80,8 +80,8 @@ img {
     flex-direction: column;
   }
   .title {
-
     order: 1;
+    padding-bottom: 3rem;
   }
   .note {
     order: 2;

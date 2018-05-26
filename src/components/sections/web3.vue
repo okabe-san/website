@@ -47,6 +47,7 @@ h1 {
   box-sizing: border-box;
   height: auto;
   padding: 2rem 4rem;
+  margin-bottom: 8rem;
 }
 .title, .note {
   display: flex;
@@ -74,6 +75,7 @@ img {
   }
   .title {
     order: 1;
+    padding-bottom: 3rem;
   }
   .note {
     order: 2;

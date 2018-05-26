@@ -37,7 +37,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
-  height: auto;
+  min-height: 400px;
   padding: 2rem;
   background: rgba(0, 0, 0, 0.05);
 }
@@ -49,10 +49,18 @@ h1 {
 }
 .title {
   width: 400px;
-  height: 100%;
   border-right: 1px solid #fff;
 }
 .note {
   flex: 1;
+}
+@media (max-width: 850px) {
+  .container {
+    flex-direction: column;
+  }
+  .title {
+    width: 100%;
+    border: none;
+  }
 }
 </style>
