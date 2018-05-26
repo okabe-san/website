@@ -57,10 +57,10 @@ h1 {
 }
 .title, .note {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   height: 100%;
+  word-wrap: break-word;
 }
 .title {
   flex: 1;
@@ -73,6 +73,12 @@ img {
   max-height:100%;
 }
 @media (max-width: 500px) {
+  h1 {
+    font-size: 40px;
+  }
+  .container {
+    flex-direction: column;
+  }
   .title {
     order: 1;
   }

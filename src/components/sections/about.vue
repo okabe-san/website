@@ -45,6 +45,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  word-wrap: break-word;
 }
 .title {
   width: 400px;
