@@ -52,15 +52,15 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
-  height: 400px;
+  height: auto;
   padding: 2rem 4rem;
 }
 .title, .note {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   height: 100%;
+  word-break: break-word;
 }
 .title {
   flex: 1;
@@ -71,5 +71,20 @@ h1 {
 img {
   max-width:100%;
   max-height:100%;
+}
+@media (max-width: 850px) {
+  h1 {
+    font-size: 40px;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .title {
+    order: 1;
+    padding-bottom: 3rem;
+  }
+  .note {
+    order: 2;
+  }
 }
 </style>
