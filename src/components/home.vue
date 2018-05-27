@@ -37,7 +37,9 @@
       </div>
       <div class="bottom">
         <p>
-          aki0u0@gmail.com | Denver, CO
+          aki0u0@gmail.com
+          <span class="divide"> | </span>
+          <span class="place">Denver, CO</span>
         </p>
         © 2018 Okabe
       </div>
@@ -128,6 +130,12 @@ footer {
   }
   .note {
     align-self: center;
+  }
+  .divide {
+    display: none;
+  }
+  .place {
+    display: block;
   }
 }
 </style>
