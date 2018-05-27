@@ -61,7 +61,6 @@ h1 {
   justify-content: center;
   align-items: center;
   height: 100%;
-  word-wrap: break-word;
 }
 .title {
   flex: 1;
@@ -69,6 +68,7 @@ h1 {
 .note {
   flex: 2;
   padding: 0 1rem;
+  word-wrap: break-word;
 }
 img {
   max-width:100%;
