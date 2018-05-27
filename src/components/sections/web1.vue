@@ -53,7 +53,7 @@ h1 {
   flex-wrap: wrap;
   box-sizing: border-box;
   height: auto;
-  padding: 2rem 4rem;
+  padding: 4rem;
   margin-top: 8rem;
 }
 .title, .note {
@@ -68,6 +68,7 @@ h1 {
 }
 .note {
   flex: 2;
+  padding: 0 1rem;
 }
 img {
   max-width:100%;
@@ -79,11 +80,11 @@ img {
   }
   .container {
     flex-direction: column;
-    margin-top: 2rem;
+    padding: 2rem 4rem;
   }
   .title {
     order: 1;
-    padding-bottom: 3rem;
+    padding: 0;
   }
   .note {
     order: 2;

@@ -2,6 +2,7 @@
   <div class="container">
 
     <div class="title">
+      <h1>embroidery ORDER</h1>
     </div>
     <div class="note">
       <div>
@@ -27,9 +28,6 @@
       </div>
     </div>
     <div class="title">
-      <div>
-        <h1>embroidery ORDER</h1>
-      </div>
     </div>
   </div>
 </template>
@@ -53,7 +51,7 @@ h1 {
   flex-wrap: wrap;
   box-sizing: border-box;
   height: auto;
-  padding: 2rem 4rem;
+  padding: 4rem;
 }
 .title, .note {
   display: flex;
@@ -67,6 +65,7 @@ h1 {
 }
 .note {
   flex: 2;
+  padding: 0 1rem;
 }
 img {
   max-width:100%;
@@ -81,10 +80,10 @@ img {
   }
   .title {
     order: 1;
-    padding-bottom: 3rem;
   }
   .note {
     order: 2;
+    padding: 0;
   }
 }
 </style>
