@@ -89,7 +89,7 @@ export default {
   width: 100%;
   height: 100%;
   padding: 4rem 0;
-  border: 1px solid #fff;
+  border: 1px solid red;
 }
 @media (max-width: 500px) {
   .info_wapper {
