@@ -82,6 +82,7 @@ export default {
 .info_wapper {
   box-sizing: border-box;
   width: 50%;
+  height: 100%;
   background: rgba(0, 0, 0, 0.05);
 }
 .info {
