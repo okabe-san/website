@@ -7,6 +7,7 @@
           <p>Vue.js</p>
           <p>Node.js</p>
           <p>RUST</p>
+          <p>PHP</p>
           <p>postgreSQL</p>
           <p>HTML5</p>
           <p>CSS3</p>
