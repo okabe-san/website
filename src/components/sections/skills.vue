@@ -82,7 +82,6 @@ export default {
 .info_wapper {
   box-sizing: border-box;
   width: 50%;
-  height: 100%;
   background: rgba(0, 0, 0, 0.05);
 }
 .info {
@@ -91,6 +90,7 @@ export default {
   height: 100%;
   padding: 4rem 0;
   border: 1px solid #fff;
+  background: rgba(0, 0, 0, 0.05);
 }
 @media (max-width: 500px) {
   .info_wapper {
